@@ -1,0 +1,110 @@
+body {
+  margin: 20;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(82, 82, 82);
+  
+  top: 5;
+ width: 100%;
+  
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px 35px;
+  text-decoration: khaki;
+  font-size: 35px;
+  
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav a.active2 {
+  background-color: rgb(11, 240, 18);
+  color: white;
+}
+
+.topnav a.active3 {
+  background-color: rgb(24, 107, 27);
+  color: white;
+}
+ *{
+ box-sizing: border-box;
+ }
+ 
+ body {
+ font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ /* Style the header */
+ header {
+ background-color: #666;
+ padding: 30px;
+ text-align: center;
+ font-size: 40px;
+ color: white;
+ }
+ 
+ 
+ 
+ /* Create two columns/boxes that floats next to each other */
+ nav {
+ float: left;
+ width: 30%;
+ height: 1180px; /* only for demonstration, should be removed */
+ background: #ccc;
+ padding: 30px;
+ }
+ 
+ /* Style the list inside the menu */
+ nav ul {
+ list-style-type: none;
+ padding: 0;
+ }
+ 
+ article {
+ float: left;
+ padding: 20px;
+ width: 70%;
+ background-color: #f1f1f1;
+ height: 1180px; /* only for demonstration, should be removed */
+ }
+ 
+ /* Clear floats after the columns */
+ section:after {
+ content: "";
+ display: table;
+ clear: both;
+ }
+ 
+ /* Style the footer */
+ footer {
+ background-color: #777;
+ padding: 20px;
+ color: white;
+ }
+ 
+
+ article h2 { 
+    background-color: rgb(126, 201, 128);
+  padding: 5px;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  }
+

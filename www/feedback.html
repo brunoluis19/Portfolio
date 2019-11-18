@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style2css.css"/>
+    <link rel="stylesheet" href="css/styleMedia.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>FeedBack</title>
+
+    <script>
+            function startTime() {
+              var today = new Date();
+              var h = today.getHours();
+              var m = today.getMinutes();
+              var s = today.getSeconds();
+              m = checkTime(m);
+              s = checkTime(s);
+              document.getElementById('txt').innerHTML =
+              h + ":" + m + ":" + s;
+              var t = setTimeout(startTime, 500);
+            }
+            function checkTime(i) {
+              if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+              return i;
+            }
+            </script>
+
+</head>
+<body onload="startTime()">
+    
+        <div class="topnav">
+                <a class="active2" > PORTFOLIO </a>
+                <a  href="#"><img src="images/portfo.png" alt="MyImage1" width="30" height="30" class="return"></a>
+                <a  href="HomePag.html">SOBRE</a>
+                <a   href="ficheiros.html">TRABALHOS</a>
+                <a href="contactos.html">CONTACTOS</a>
+                <a class="active" href="feedback.html">FEEDBACK</a>
+                <li style="float:right"><a class="active3" href="index.html">CREDITS</a></li>
+                <h1><center></font><div id="txt"></div></center></h1>
+            </div>
+
+
+
+
+
+
+<section>
+    <nav>
+      <ul>
+        <pre>
+
+
+
+
+
+
+     <img src="images/formi.jpg" alt="MyImage" width="800" height="1080" class="center">
+        </pre>
+      </ul>
+    </nav>
+    
+    <article>
+       
+            
+            <p>
+                <center><font size="12"><h1>Pagina de FeedBack</h1></font></center>
+               
+                            <font size="6">Envie aqui a sua opiniaõ se quiser.</font>
+              
+                <p>
+                    <pre>
+                                       <i> <font face="tahoma" size="6">Formulário de FeedBack do PORTFOLIO </font></i>  
+                  </pre>
+                    <form action="mailto:brluis@deloitte.pt" METHOD="POST" enctype="text/plain">
+                      <font size="6"> <p> Nome :   <input type ="text" name ="nome" Size="100"> </p>
+              
+                      <p>  Idade :  <input type ="text" name ="idade" Size="100"> </p>
+              
+                       <p> E-mail :  <input type ="text" name ="e-mail" Size="100"></p></font>
+              
+                  <pre>
+                       <font size="6"> <em><h1>  Opinião quanto ao Design:</em></font>
+                       </pre>
+                        <font size="4"><p><input type="radio" name="Design" value="1">Feio</p>   
+                        <p><input type="radio" name="Design" value="2">Não está Mau  </p>
+                      <p> <input type="radio" name="Design" value="3">Belo </p>
+            </h1></font>
+              
+
+
+            <pre>
+                <font size="6"> <em><h1>  Tive Problemas com o Funcionamento da Pagina:</em></font>
+                </pre>
+                <font size="4"><p><input type="radio" name="Funcionamento" value="1">Sim  </p> 
+                  <p> <input type="radio" name="Funcionamento" value="2">Não   </p> 
+                </h1></font>
+              
+
+
+
+                <pre>
+                    <font size="6"> <em><h1> Tentou entrar em contacto, mas teve problemas :</em></font>
+              </pre>
+              <font size="4"><p><input type="radio" name="Contacto" value="1">Sim  </p> 
+                <p><input type="radio" name="Contacto" value="2">Não </p> 
+                </h1></font>
+          
+
+
+
+
+
+                <pre>
+                                          <font size="8"> <em><h1>  Alguma questão a Fazer :  </em></font>
+                    </pre>
+
+                    <font size="4"><p><input type ="text" name ="questao" Size="150"> </p>
+                    
+                      <pre>
+                     <input type="reset" id="search" value="Apagar Campos"> <input type="submit" id="search" value="Enviar" >
+                </p></font>
+              </pre>
+          
+            </p>
+          
+        
+    </article>
+  </section>
+
+  
+  <footer>
+    <p>
+        <div align="right">
+            <a href="https://www.facebook.com/" class="fa fa-facebook" ></a>
+            <a href="https://twitter.com/login" class="fa fa-twitter"></a>
+            <a href="https://www.google.pt/" class="fa fa-google"></a>
+            <a href="https://www.youtube.com/?gl=PT" class="fa fa-youtube"></a>
+    <a href="https://www.instagram.com/?hl=pt" class="fa fa-instagram"></a>
+            </div>
+    </p>
+  </footer>
+
+
+
+</body>
+
+
+
+</html>
